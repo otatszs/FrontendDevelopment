@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form test</title>
+</head>
+<body>
+    <form action="script.php" method="post" enctype="multipart/form-data" name="form" id="form">
+        <fieldset>
+            <legend>Personal information:</legend>
+            <label for="nme">Your full name:</label>
+            <input type="text" name="nme" id="nme">
+<br> <br>
+            <label for="nme">Your full name:</label>
+            <input type="text" name="nme" id="nme">
+<br> <br>
+            <label for="mail">E-mail adress:</label>
+            <input type="email" name="mail" id="mail">
+<br> <br>
+            <label for="slm">You are</label>
+            <select name="slm" id="slm">
+            <optgroup label="Europe">
+                <option value="Serbia">Serbian</option>
+                <option value="Romania" selected>Romanian</option>
+                <option value="Ukraine">Ukrainan</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="Indonesia">Indonesian</option>
+                <option value="Mongolia">Mongolian</option>
+            </optgroup>
+            </select>
+        </fieldset>
+<br> <br>
+        <fieldset>
+            <legend>Reason you are contacting us:</legend>
+            <input type="checkbox" name="c1" id="c1">
+            <label for="c1">I would like detailed information</label>
+           <br> <input type="checkbox" name="c2" id="c2">
+            <label for="c2">I am interested in employment</label>
+           <br> <input type="checkbox" name="c3" id="c3">
+            <label for="c3">I would like to give you my feedback</label>
+         <br>  <input type="checkbox" name="c4" id="c4">
+            <label for="c4">Other (see below)</label>
+
+        </fieldset>
+<br>
+
+        <label for="ta">Comments:</label>
+
+        <br> 
+<textarea name="ta" id="ta"></textarea>
+<br> <br>
+<input type="submit" value="Send">
+    </form>
+</body>
+</html>
