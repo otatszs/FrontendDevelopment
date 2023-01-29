@@ -5,20 +5,82 @@
     <title>Forms</title>
 </head>
 <body>
-   <form action="script.php" method="post" enctype="multipart/form-data" name="Form" id="form">
+    
+    <a href="file:///C:/Users/Lenovo/Desktop/other/ITA/učim/07_forms/07_forms/index.html">Pro</a>
 
-    <label for="name">  Name: </label>
-    <input type="text" id="name">
- 
 
-<label for="pass">Password:</label>
-<input type="password" id="pass">
+    <form action="script.php" method="post" enctype="multipart/form-data" name="form" id="form">
+        <label for="country">Country:</label>
 
-<input type="checkbox" id="question" name="question" value="Like">
-<label for="question">I love html mmmmmm</label>
+<br>
+
+        <input type="radio" name="country" id="Serbia" value="Serbia" checked>
+        <label for="Serbia">Serbia</label>
+
+        <br>
+
+        <input type="radio" name="country" id="Bugaria" value="Bugaria">
+        <label for="Bugaria">Bugaria</label>
+
+        <br>
+
+        <input type="radio" name="country" id="Ukraine" value="Ukraine">
+        <label for="Ukraine">Ukraine</label>
+
+  <br>
+  <br>
+
+  <label for="slc">Nationality:</label>
+<select name="slc" id="slc">
+<option value="Serbia">Serbian</option>
+<option value="Bugaria" selected>Bugarian</option>
+<option value="Ukraine">Ukrainen</option>
+</select>
+
+  <br>
+  <br>
+
+    <label for="nme">Name:</label>
+    <input type="text" id="nme">
+
+    <label for="lme">Surname:</label>
+    <input type="text" id="lme">
+
+<br>
+<br>
+
+<label for="num">Age:</label>
+<input type="number" name="num" id="num" min="18" max="70">
+
+<br>
+<br>
+
+<label for="abt">About:</label>
+<br>
+<textarea name="abt" id="abt">Describe yourself</textarea>
+
+<br>
+<br>
+
+<input type="checkbox" name="cb1" id="cb1" value="YES">
+<label for="cb1">I love HTML</label>
+
+    <br>
+    <br>
+
+    <label for="clr">Color:</label>
+    <input type="color" name="clr" id="clr">
+
+
+    <br>
+    <br>
+
 <input type="submit" value="Submit">
 
-   </form> 
+   </form>
 
+</body>
+</html>             
+    </form>
 </body>
 </html>
